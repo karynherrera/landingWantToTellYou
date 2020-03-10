@@ -150,16 +150,39 @@
 }
 .parrafo p {
     font-family: "Akkurat";
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: justify;
     padding: 4vw;
-    margin: 3vw;
-   
+    margin: 3vw; 
 }
 
 .parrafo strong{
     font-family: "Akkurat-Bold";
 }
+.parrafo ::after{
+    content: "";
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+    top: 5vw;
+    right: 4vw;
+    padding: 4vw;
+    border-right: 1vw solid #70C2B4;
+    border-top: 1vw solid #70C2B4;
+}
+.parrafo ::before{
+    content: "";
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+    bottom: 4vw;
+    left: 5vw;
+    padding: 4vw;
+    border-left: 1vw solid #70C2B4;
+    border-bottom: 1vw solid #70C2B4;
+}
+
+
 
 @media (max-width: 500px) and (min-width: 320px) {
     #logo-casaideas {
@@ -190,7 +213,16 @@
         background-size: 93% 1vw;
         transition: background-size .3s;
     }
-   
+    .parrafo ::after{
+        top: 6vw;
+        right: 7vw;
+        padding: 12vw;
+    }
+    .parrafo ::before{
+        bottom: 4vw;
+        left: 7vw;
+        padding: 12vw;
+    }
 }
 
 @media (min-width: 1200px) {
