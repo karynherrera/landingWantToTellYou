@@ -1,0 +1,160 @@
+* {
+    color: #666159;
+    font-family: "akkurat";
+}
+
+.header {
+    background-color: #70C2B4;
+    width: -webkit-fill-available;
+    display: inline-block;
+    padding: 3%;
+    text-align: center;
+}
+
+.header .logo {
+    text-align: left;
+}
+
+#logo-casaideas {
+    width: 9rem;
+    padding-bottom: 4vw;
+    margin-left: -0.2rem;
+}
+
+.header .title {
+    font-family: "fjalla_oneregular";
+    color: white;
+    font-size: 3vw;
+}
+
+.content h1 {
+    color: white;
+    font-size: 9vw;
+    font-family: "fjalla_oneregular";
+    text-align: left;
+    margin: 0;
+}
+
+.content h1:nth-child(2) {
+    text-shadow: -1px -1px 0px #70C2B4, 3px 3px 0px #70C2B4, 6px 6px 0px white;
+}
+
+.content h1 span {
+    color: white;
+    text-shadow: none;
+}
+
+#logo-casaideas {
+    width: 20vw;
+    padding-bottom: 2.5vw;
+    margin-left: -0.2rem;
+}
+
+.st0, .st1, .st2 {
+    fill: white;
+}
+
+#Capa_1 {
+    width: 40%;
+    position: absolute;
+    top: -4rem;
+    left: 0rem;
+}
+
+#Capa_1 .st0 {
+    opacity: 0.5;
+    fill: #70C2B4;
+}
+
+#Capa_1 .st1 {
+    fill: none;
+    stroke: #575756;
+    stroke-width: 2.3;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 5;
+}
+
+#Capa_1 .st2 {
+    fill: none;
+    stroke: #575756;
+    stroke-width: 2.485;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+#Capa_1 .st3 {
+    fill: none;
+    stroke: #575756;
+    stroke-width: 2.485;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+#Capa_1 .st4 {
+    fill: #575756;
+}
+
+#Capa_1 .st5 {
+    fill: none;
+    stroke: #575756;
+    stroke-width: 2.3;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.containtable {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+    background-position: center;
+}
+
+.sectionText {
+    justify-content: justify;
+    text-align: left;
+}
+
+.sectionText p, .sectionText span {
+    font-family: "fjalla_oneregular";
+    margin-top: 2rem;
+    font-size: 3.2vw;
+    width: 95%;
+}
+
+@media (max-width: 500px) and (min-width: 320px) {
+    #logo-casaideas {
+        width: 36vw;
+        padding-bottom: 3vw;
+        margin-left: -0.2rem;
+    }
+    .header {
+        width: -webkit-fill-available;
+        display: inline-block;
+        padding: 1rem 0.5rem 1rem 1rem;
+    }
+    .header .title {
+        font-family: "fjalla_oneregular";
+        color: white;
+        font-size: 6vw;
+    }
+    .content h1:nth-child(2) {
+        text-shadow: -1px -1px 0px #70C2B4, 2.5px 2.5px 0px #70C2B4, 4px 4px 0px white;
+    }
+    .content h1 {
+        font-size: 15vw;
+    }
+    #Capa_1 {
+        top: -1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 90vw;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 5120px) and (min-width: 1500px) {}
