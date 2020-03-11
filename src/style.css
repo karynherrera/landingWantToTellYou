@@ -103,14 +103,24 @@
     stroke-linejoin: round;
     stroke-miterlimit: 10;
 }
-
-.containtable {
+#personita{
+    width: 35%;
+    position: absolute;
+    top: -4rem;
+    right: 0rem;
+}
+.containtable.left {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 100%;
     background-position: center;
 }
-
+.containtable.right {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    background-position: center;
+}
 .sectionText {
     justify-content: center;
     text-align: left;
@@ -131,7 +141,7 @@
     margin: 0;
 }
 
-.sectionText span {
+.sectionText.green span {
     text-decoration: none;
     background-image: linear-gradient(#70C2B4, #70C2B4);
     background-position: 0% 75%;
@@ -140,7 +150,15 @@
     transition: background-size .3s;
     padding-left: 1vw;
 }
-
+.sectionText.pink span {
+    text-decoration: none;
+    background-image: linear-gradient(#FACEBE, #FACEBE);
+    background-position: 0% 75%;
+    background-repeat: no-repeat;
+    background-size: 0% 1vw;
+    transition: background-size .3s;
+    padding-left: 2vw;
+}
 .sectionText span:hover, .sectionText span:focus {
     background-size: 93% 1vw;
    
@@ -151,11 +169,15 @@
 .parrafo p {
     font-family: "Akkurat";
     font-size: 2vw;
-    text-align: justify;
-    padding: 4vw;
-    margin: 3vw; 
+    text-align: justify; 
 }
-
+.parrafo.pink{
+    margin-top: 10vh;
+}
+.fabricacion .parrafo p, .paragraph{
+    padding: 4vw;
+    margin: 2vw;
+}
 .parrafo strong{
     font-family: "Akkurat-Bold";
 }
@@ -164,26 +186,72 @@
     background-color: transparent;
     position: absolute;
     z-index: -1;
-    top: 5vw;
-    right: 4vw;
     padding: 4vw;
-    border-right: 1vw solid #70C2B4;
-    border-top: 1vw solid #70C2B4;
+    
+
+    -webkit-animation-name: opacity;
+      -webkit-animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: opacity;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
 }
 .parrafo ::before{
     content: "";
     background-color: transparent;
     position: absolute;
     z-index: -1;
+    padding: 4vw;
+    
+
+    -webkit-animation-name: opacity;
+      -webkit-animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: opacity;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+}
+.parrafo.green ::after{
+    top: 5vw;
+    right: 4vw;
+    border-right: 1vw solid #70C2B4;
+    border-top: 1vw solid #70C2B4;
+}
+.parrafo.green ::before{
     bottom: 4vw;
     left: 5vw;
-    padding: 4vw;
     border-left: 1vw solid #70C2B4;
     border-bottom: 1vw solid #70C2B4;
 }
 
+.parrafo.pink ::after{
+    top: 4vw;
+    left: 3vw;
+    border-left: 1vw solid #FACEBE;
+    border-top: 1vw solid #FACEBE;
+}
+.parrafo.pink ::before{
+    bottom: 5vw;
+    right: 4vw;
+    border-right: 1vw solid #FACEBE;
+    border-bottom: 1vw solid #FACEBE;
+}
+p.subtitle{
+    font-family: "fjalla_oneregular";
+    font-size: 3.2vw;
+    width: 100%;
+    margin: 0;
+}
 
-
+.btn-show-more {
+    padding: 1vw;
+    background-color: #FACEBE;
+    font-family: "fjalla_oneregular";
+    font-size: 1.5vw;
+    float: right;
+    margin-right: 3vw;
+    height: fit-content;
+}
 @media (max-width: 500px) and (min-width: 320px) {
     #logo-casaideas {
         width: 36vw;
@@ -233,3 +301,10 @@
 }
 
 @media (max-width: 5120px) and (min-width: 1500px) {}
+
+
+@-webkit-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+  }
+  
