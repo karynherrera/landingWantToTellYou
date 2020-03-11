@@ -353,7 +353,7 @@ p.subtitle{
 @media (max-width: 5120px) and (min-width: 1500px) {}
 
 
-@-webkit-keyframes opacity {
+@keyframes opacity {
     0%, 100% {opacity:0;}
     50% {opacity:1;}
   }
