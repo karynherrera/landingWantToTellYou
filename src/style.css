@@ -103,13 +103,13 @@
     stroke-linejoin: round;
     stroke-miterlimit: 10;
 }
-#personita{
+#personita, #medalla, #casita{
     width: 35%;
     position: absolute;
     top: -4rem;
     right: 0rem;
 }
-#plantita {
+#plantita, #carita {
     width: 35%;
     position: absolute;
     top: -4rem;
@@ -263,6 +263,12 @@ p.subtitle{
 .sustentabilidad{
     margin-top: 5vh;
 }
+.innovar .parrafo{
+    margin-top: -4vh;
+}
+.certificación .parrafo{
+    margin-top: 0vh;
+}
 @media (max-width: 500px) and (min-width: 320px) {
     #logo-casaideas {
         width: 36vw;
@@ -285,10 +291,10 @@ p.subtitle{
     .content h1 {
         font-size: 15vw;
     }
-    #Capa_1 {
+    #Capa_1, #medalla , #carita{
         top: -1rem;
     }
-    #personita, #plantita {
+    #personita, #plantita, #casita {
         top: 0rem;
     }
     .sectionText span {
@@ -319,6 +325,20 @@ p.subtitle{
         padding-bottom: 1vh;
     }
     .sustentabilidad{
+        margin-top: 0vh;
+    }
+    .parrafo.pink ::after{
+        top: 6vw;
+        left: 7vw;
+    }
+    .parrafo.pink ::before{
+        bottom: 11vw;
+        right: 7vw;
+    }
+    .innovar .parrafo{
+        margin-top: -1vh;
+    }
+    .certificación .parrafo{
         margin-top: 0vh;
     }
 }
