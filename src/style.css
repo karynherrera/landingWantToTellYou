@@ -277,19 +277,32 @@ p.subtitle{
     #Capa_1 {
         top: -1rem;
     }
+    #personita {
+        top: 0rem;
+    }
     .sectionText span {
         background-size: 93% 1vw;
         transition: background-size .3s;
     }
     .parrafo ::after{
-        top: 6vw;
-        right: 7vw;
-        padding: 12vw;
+        
+        padding: 5vw;
     }
     .parrafo ::before{
+       
+        padding: 5vw;
+    }
+    .parrafo.green ::after{
+        top: 6vw;
+        right: 7vw;
+    }
+    .parrafo.green ::before{
         bottom: 4vw;
         left: 7vw;
-        padding: 12vw;
+        
+    }
+    .parrafo.pink {
+        margin-top: 3vh;
     }
 }
 
