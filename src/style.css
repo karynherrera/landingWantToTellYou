@@ -109,6 +109,12 @@
     top: -4rem;
     right: 0rem;
 }
+#plantita {
+    width: 35%;
+    position: absolute;
+    top: -4rem;
+    left: 0rem;
+}
 .containtable.left {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -174,7 +180,7 @@
 .parrafo.pink{
     margin-top: 10vh;
 }
-.fabricacion .parrafo p, .paragraph{
+.fabricacion .parrafo p, .paragraph, .sustentabilidad .parrafo p{
     padding: 4vw;
     margin: 2vw;
 }
@@ -241,9 +247,11 @@ p.subtitle{
     font-size: 3.2vw;
     width: 100%;
     margin: 0;
+    padding-bottom: 5vh;
 }
 
 .btn-show-more {
+    cursor: pointer;
     padding: 1vw;
     background-color: #FACEBE;
     font-family: "fjalla_oneregular";
@@ -251,6 +259,9 @@ p.subtitle{
     float: right;
     margin-right: 3vw;
     height: fit-content;
+}
+.sustentabilidad{
+    margin-top: 5vh;
 }
 @media (max-width: 500px) and (min-width: 320px) {
     #logo-casaideas {
@@ -277,7 +288,7 @@ p.subtitle{
     #Capa_1 {
         top: -1rem;
     }
-    #personita {
+    #personita, #plantita {
         top: 0rem;
     }
     .sectionText span {
@@ -303,6 +314,12 @@ p.subtitle{
     }
     .parrafo.pink {
         margin-top: 3vh;
+    }
+    p.subtitle {
+        padding-bottom: 1vh;
+    }
+    .sustentabilidad{
+        margin-top: 0vh;
     }
 }
 
