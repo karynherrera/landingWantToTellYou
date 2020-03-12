@@ -103,30 +103,35 @@
     stroke-linejoin: round;
     stroke-miterlimit: 10;
 }
-#personita, #medalla, #casita{
+
+#personita, #medalla, #casita {
     width: 35%;
     position: absolute;
     top: -4rem;
     right: 0rem;
 }
+
 #plantita, #carita {
     width: 35%;
     position: absolute;
     top: -4rem;
     left: 0rem;
 }
+
 .containtable.left {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 100%;
     background-position: center;
 }
+
 .containtable.right {
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 100%;
     background-position: center;
 }
+
 .sectionText {
     justify-content: center;
     text-align: left;
@@ -156,6 +161,7 @@
     transition: background-size .3s;
     padding-left: 1vw;
 }
+
 .sectionText.pink span {
     text-decoration: none;
     background-image: linear-gradient(#FACEBE, #FACEBE);
@@ -165,93 +171,102 @@
     transition: background-size .3s;
     padding-left: 2vw;
 }
+
 .sectionText span:hover, .sectionText span:focus {
     background-size: 93% 1vw;
-   
 }
+
 .parrafo {
     padding-top: 2vh;
 }
+
 .parrafo p {
     font-family: "Akkurat";
     font-size: 2vw;
-    text-align: justify; 
+    text-align: justify;
 }
-.parrafo.pink{
+
+.parrafo.pink {
     margin-top: 10vh;
 }
-.fabricacion .parrafo p, .paragraph, .sustentabilidad .parrafo p{
+
+.fabricacion .parrafo p, .paragraph, .sustentabilidad .parrafo p {
     padding: 4vw;
     margin: 2vw;
 }
-.parrafo strong{
+
+.parrafo strong {
     font-family: "Akkurat-Bold";
 }
-.parrafo ::after{
+
+.parrafo ::after {
     content: "";
     background-color: transparent;
     position: absolute;
     z-index: -1;
     padding: 4vw;
-    
-
     -webkit-animation-name: opacity;
-      -webkit-animation-duration: 20s;
-      -webkit-animation-iteration-count: infinite;
-      animation-name: opacity;
-      animation-duration: 20s;
-      animation-iteration-count: infinite;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: opacity;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
-.parrafo ::before{
+
+.parrafo ::before {
     content: "";
     background-color: transparent;
     position: absolute;
     z-index: -1;
     padding: 4vw;
-    
-
     -webkit-animation-name: opacity;
-      -webkit-animation-duration: 20s;
-      -webkit-animation-iteration-count: infinite;
-      animation-name: opacity;
-      animation-duration: 20s;
-      animation-iteration-count: infinite;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: opacity;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
-.parrafo.green ::after{
+
+.parrafo.green ::after {
     top: 4vw;
     right: 3vw;
     border-right: 1vw solid #70C2B4;
     border-top: 1vw solid #70C2B4;
 }
-.parrafo.green ::before{
+
+.parrafo.green ::before {
     bottom: 3vw;
     left: 3vw;
     border-left: 1vw solid #70C2B4;
     border-bottom: 1vw solid #70C2B4;
 }
 
-.parrafo.pink ::after{
+.parrafo.pink ::after {
     top: 4vw;
     left: 3vw;
     border-left: 1vw solid #FACEBE;
     border-top: 1vw solid #FACEBE;
 }
-.parrafo.pink ::before{
+
+.parrafo.pink ::before {
     bottom: 5vw;
     right: 3vw;
     border-right: 1vw solid #FACEBE;
     border-bottom: 1vw solid #FACEBE;
 }
-p.subtitle{
+
+p.subtitle {
     font-family: "fjalla_oneregular";
     font-size: 3.2vw;
     width: 100%;
     margin: 0;
     padding-bottom: 5vh;
 }
-.why{
+
+.why {
     padding-top: 5vh;
 }
+
 .btn-show-more {
     cursor: pointer;
     padding: 1vw;
@@ -262,32 +277,38 @@ p.subtitle{
     margin-right: 3vw;
     height: fit-content;
 }
-.sustentabilidad{
+
+.sustentabilidad {
     margin-top: 5vh;
 }
-.innovar .parrafo{
+
+.innovar .parrafo {
     margin-top: -4vh;
 }
-.certificación .parrafo{
+
+.certificación .parrafo {
     margin-top: 0vh;
 }
-.thevideo{
+
+.thevideo {
     width: 36vw;
 }
-  
-  /* Hide Play button + controls on iOS */
-  video::-webkit-media-controls {
-      display:none !important;
-  }
 
-  p.karubag::first-letter, p.kiklos::first-letter,  p.recycla::first-letter {
-	font-size: 3em;
+/* Hide Play button + controls on iOS */
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
+    font-size: 3em;
     font-family: "fjalla_oneregular";
     color: #FACEBE;
     margin: 0.3vh;
     padding-right: 2vw;
     float: left;
 }
+
 @media (max-width: 500px) and (min-width: 320px) {
     #logo-casaideas {
         width: 36vw;
@@ -310,7 +331,7 @@ p.subtitle{
     .content h1 {
         font-size: 15vw;
     }
-    #Capa_1, #medalla , #carita{
+    #Capa_1, #medalla, #carita {
         top: 0rem;
     }
     #personita, #plantita, #casita {
@@ -320,34 +341,41 @@ p.subtitle{
         background-size: 93% 1vw;
         transition: background-size .3s;
     }
-
-    .sectionText.green span::before {
-        content: "";
-        text-decoration: none;
-        background-image: linear-gradient(#70C2B4, #70C2B4);
-        background-position: 0% 75%;
-        background-repeat: no-repeat;
-        background-size: 93% 1vw;
-        transition: background-size .3s;
-        padding-left: 1vw;
-
-    }
-    .parrafo ::after{
-        
+    .parrafo ::after {
         padding: 5vw;
     }
-    .parrafo ::before{
-       
+    .parrafo ::before {
         padding: 5vw;
     }
-    .parrafo.green ::after{
+    .parrafo.green ::after {
         top: 6vw;
         right: 7vw;
     }
-    .parrafo.green ::before{
+    .parrafo.green ::before {
         bottom: 4vw;
         left: 7vw;
-        
+    }
+    .sectionText.green span {
+        background-image: linear-gradient(#70C2B4, #70C2B4);
+        background-size: 0% 1vw;
+        animation: wave 1s;
+        background-position: 0% 75%;
+        background-repeat: no-repeat;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-iteration-count: infinite;
+    }
+    .sectionText.pink span {
+        background-image: linear-gradient(#FACEBE, #FACEBE);
+        background-size: 0% 1vw;
+        animation: wave 1s;
+        background-position: 0% 75%;
+        background-repeat: no-repeat;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-iteration-count: infinite;
     }
     .parrafo.pink {
         margin-top: 3vh;
@@ -355,21 +383,21 @@ p.subtitle{
     p.subtitle {
         padding-bottom: 1vh;
     }
-    .sustentabilidad{
+    .sustentabilidad {
         margin-top: 0vh;
     }
-    .parrafo.pink ::after{
+    .parrafo.pink ::after {
         top: 6vw;
         left: 7vw;
     }
-    .parrafo.pink ::before{
+    .parrafo.pink ::before {
         bottom: 11vw;
         right: 7vw;
     }
-    .innovar .parrafo{
+    .innovar .parrafo {
         margin-top: -1vh;
     }
-    .certificación .parrafo{
+    .certificación .parrafo {
         margin-top: 0vh;
     }
     p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
@@ -379,7 +407,7 @@ p.subtitle{
         padding: 1.3vw;
         font-size: 3vw;
     }
-    .why{
+    .why {
         padding-top: 0vh;
     }
 }
@@ -393,9 +421,26 @@ p.subtitle{
 
 @media (max-width: 5120px) and (min-width: 1500px) {}
 
-
 @keyframes opacity {
-    0%, 100% {opacity:0;}
-    50% {opacity:1;}
-  }
-  
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes wave {
+    0% {
+        background-size: 0% 1vw;
+    }
+    20% {
+        background-size: 25% 1vw;
+    }
+    75% {
+        background-size: 75% 1vw;
+    }
+    100% {
+        background-size: 90% 1vw;
+    }
+}
