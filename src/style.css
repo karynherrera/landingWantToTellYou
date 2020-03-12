@@ -272,15 +272,20 @@ p.subtitle{
 .thevideo{
     width: 36vw;
 }
-
-.video {
-    
-  }
   
   /* Hide Play button + controls on iOS */
   video::-webkit-media-controls {
       display:none !important;
   }
+
+  p.karubag::first-letter, p.kiklos::first-letter,  p.recycla::first-letter {
+	font-size: 3em;
+    font-family: "fjalla_oneregular";
+    color: #FACEBE;
+    margin: 1vh;
+    padding-right: 1vw;
+    float: left;
+}
 @media (max-width: 500px) and (min-width: 320px) {
     #logo-casaideas {
         width: 36vw;
@@ -352,6 +357,9 @@ p.subtitle{
     }
     .certificación .parrafo{
         margin-top: 0vh;
+    }
+    p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
+        margin: 0.5vh;
     }
 }
 
