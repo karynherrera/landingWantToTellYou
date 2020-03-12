@@ -318,6 +318,24 @@ p.subtitle{
         background-size: 93% 1vw;
         transition: background-size .3s;
     }
+
+    .sectionText.green span::before {
+        content: "";
+        text-decoration: none;
+        background-image: linear-gradient(#70C2B4, #70C2B4);
+        background-position: 0% 75%;
+        background-repeat: no-repeat;
+        background-size: 93% 1vw;
+        transition: background-size .3s;
+        padding-left: 1vw;
+
+        -webkit-animation-name: opacity;
+        -webkit-animation-duration: 20s;
+        -webkit-animation-iteration-count: infinite;
+        animation-name: opacity;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
     .parrafo ::after{
         
         padding: 5vw;
@@ -360,6 +378,10 @@ p.subtitle{
     }
     p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
         margin: 0.5vh;
+    }
+    .btn-show-more {
+        padding: 1.3vw;
+        font-size: 3vw;
     }
 }
 
