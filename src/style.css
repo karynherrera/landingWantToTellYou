@@ -349,6 +349,9 @@ p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
         background-size: 93% 1vw;
         transition: background-size .3s;
     }
+    .parrafo p {
+        font-size: 2.5vw;
+    }
     .parrafo ::after {
         padding: 5vw;
     }
@@ -364,7 +367,7 @@ p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
         left: 7vw;
     }
     .sectionText.green span {
-        background-image: linear-gradient(#70C2B4, #70C2B4);
+        background-image: linear-gradient(#a7d9d1, #a7d9d1);
         background-size: 0% 1vw;
         animation: wave 1s;
         background-position: 0% 75%;
@@ -375,7 +378,7 @@ p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
         -webkit-animation-iteration-count: infinite;
     }
     .sectionText.pink span {
-        background-image: linear-gradient(#FACEBE, #FACEBE);
+        background-image: linear-gradient(#f9c0ac, #f9c0ac);
         background-size: 0% 1vw;
         animation: wave 1s;
         background-position: 0% 75%;
@@ -409,7 +412,7 @@ p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
         margin-top: 0vh;
     }
     p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
-        margin: 0.5vh;
+        margin: 2.5vh;
     }
     .btn-show-more {
         padding: 1.3vw;
