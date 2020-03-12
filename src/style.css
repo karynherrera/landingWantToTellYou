@@ -308,7 +308,15 @@ p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
     padding-right: 2vw;
     float: left;
 }
-
+.typing > *{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnim 3s steps(50);
+  }
+  @keyframes typingAnim {
+    from {width:0}
+    to {width:100%}
+  }
 @media (max-width: 500px) and (min-width: 320px) {
     #logo-casaideas {
         width: 36vw;
