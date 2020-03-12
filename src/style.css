@@ -57,7 +57,7 @@
 #Capa_1 {
     width: 40%;
     position: absolute;
-    top: -4rem;
+    top: 0rem;
     left: 0rem;
 }
 
@@ -269,6 +269,18 @@ p.subtitle{
 .certificación .parrafo{
     margin-top: 0vh;
 }
+.thevideo{
+    width: 36vw;
+}
+.video {
+    background-image: url('./img/BARQUITO.png');
+    background-repeat: no-repeat;
+  }
+  
+  /* Hide Play button + controls on iOS */
+  video::-webkit-media-controls {
+      display:none !important;
+  }
 @media (max-width: 500px) and (min-width: 320px) {
     #logo-casaideas {
         width: 36vw;
