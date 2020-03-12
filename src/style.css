@@ -272,9 +272,9 @@ p.subtitle{
 .thevideo{
     width: 36vw;
 }
+
 .video {
-    background-image: url('./img/BARQUITO.png');
-    background-repeat: no-repeat;
+    
   }
   
   /* Hide Play button + controls on iOS */
@@ -304,7 +304,7 @@ p.subtitle{
         font-size: 15vw;
     }
     #Capa_1, #medalla , #carita{
-        top: -1rem;
+        top: 0rem;
     }
     #personita, #plantita, #casita {
         top: 0rem;
