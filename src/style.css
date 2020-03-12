@@ -218,14 +218,14 @@
       animation-iteration-count: infinite;
 }
 .parrafo.green ::after{
-    top: 5vw;
-    right: 4vw;
+    top: 4vw;
+    right: 3vw;
     border-right: 1vw solid #70C2B4;
     border-top: 1vw solid #70C2B4;
 }
 .parrafo.green ::before{
-    bottom: 4vw;
-    left: 5vw;
+    bottom: 3vw;
+    left: 3vw;
     border-left: 1vw solid #70C2B4;
     border-bottom: 1vw solid #70C2B4;
 }
@@ -238,7 +238,7 @@
 }
 .parrafo.pink ::before{
     bottom: 5vw;
-    right: 4vw;
+    right: 3vw;
     border-right: 1vw solid #FACEBE;
     border-bottom: 1vw solid #FACEBE;
 }
@@ -249,7 +249,9 @@ p.subtitle{
     margin: 0;
     padding-bottom: 5vh;
 }
-
+.why{
+    padding-top: 5vh;
+}
 .btn-show-more {
     cursor: pointer;
     padding: 1vw;
@@ -282,8 +284,8 @@ p.subtitle{
 	font-size: 3em;
     font-family: "fjalla_oneregular";
     color: #FACEBE;
-    margin: 1vh;
-    padding-right: 1vw;
+    margin: 0.3vh;
+    padding-right: 2vw;
     float: left;
 }
 @media (max-width: 500px) and (min-width: 320px) {
@@ -329,12 +331,6 @@ p.subtitle{
         transition: background-size .3s;
         padding-left: 1vw;
 
-        -webkit-animation-name: opacity;
-        -webkit-animation-duration: 20s;
-        -webkit-animation-iteration-count: infinite;
-        animation-name: opacity;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
     }
     .parrafo ::after{
         
@@ -382,6 +378,9 @@ p.subtitle{
     .btn-show-more {
         padding: 1.3vw;
         font-size: 3vw;
+    }
+    .why{
+        padding-top: 0vh;
     }
 }
 
