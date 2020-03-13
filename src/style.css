@@ -206,10 +206,10 @@
     z-index: -1;
     padding: 4vw;
     -webkit-animation-name: opacity;
-    -webkit-animation-duration: 20s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-name: opacity;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -220,10 +220,10 @@
     z-index: -1;
     padding: 4vw;
     -webkit-animation-name: opacity;
-    -webkit-animation-duration: 20s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-name: opacity;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
