@@ -108,14 +108,12 @@
     width: 35%;
     position: absolute;
     top: -4rem;
-    
 }
 
 #plantita, #carita {
     width: 35%;
     position: absolute;
     top: -4rem;
-    
 }
 
 .containtable.left {
@@ -313,6 +311,12 @@ p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
     white-space: nowrap;
     animation: typingAnim 3s steps(50);
   }
+  .certificación .paragraph p{
+    margin-bottom: 2vh;
+}
+.certificación .paragraph p.subtitle{
+   padding-bottom: 2vh;
+}
   @keyframes typingAnim {
     from {width:0}
     to {width:100%}
@@ -411,6 +415,10 @@ p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
     .certificación .parrafo {
         margin-top: 0vh;
     }
+    .certificación .parrafo.pink ::before {
+        bottom: 5vw;
+        right: 7vw;
+    }
     p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
         margin: 0.3vh;
     }
@@ -420,6 +428,12 @@ p.karubag::first-letter, p.kiklos::first-letter, p.recycla::first-letter {
     }
     .why {
         padding-top: 0vh;
+    }
+    .certificación .paragraph p{
+        margin-bottom: 1vh;
+    }
+    .certificación .paragraph p.subtitle{
+       padding-bottom: 0vh;
     }
 }
 
