@@ -58,7 +58,7 @@
     width: 40%;
     position: absolute;
     top: 0rem;
-    left: 0rem;
+    
 }
 
 #Capa_1 .st0 {
@@ -108,14 +108,14 @@
     width: 35%;
     position: absolute;
     top: -4rem;
-    right: 0rem;
+    
 }
 
 #plantita, #carita {
     width: 35%;
     position: absolute;
     top: -4rem;
-    left: 0rem;
+    
 }
 
 .containtable.left {
@@ -206,10 +206,10 @@
     z-index: -1;
     padding: 4vw;
     -webkit-animation-name: opacity;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
     animation-name: opacity;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
@@ -220,10 +220,10 @@
     z-index: -1;
     padding: 4vw;
     -webkit-animation-name: opacity;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
     animation-name: opacity;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
